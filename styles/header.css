@@ -1,8 +1,62 @@
-button {
+#header {
+  display: flex;
+}
+
+.logo button {
+  margin: 20px 0px 0px 370px;
+  position: relative;
   width: 100px;
   height: 70.646px;
-  flex-shrink: 0;
-  background-image: url("../images/Group\ 1.svg");
+  background-image: url("../images/logo.svg");
   border: none;
   background-color: transparent;
+}
+
+.logo button a {
+  position: absolute;
+  left: 34px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.header-nav ul {
+  margin: 46px 0px 0px 63px;
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav ul li {
+  display: flex;
+  gap: 6.15px;
+}
+
+.header-nav ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #000;
+}
+
+.header-info {
+  display: flex;
+  gap: 40px;
+  margin: 46px 0px 0px 77.85px;
+}
+
+.header-info span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.header-geo,
+.header-login {
+  display: flex;
+  gap: 9px;
+}
+
+.header-info img {
+  position: relative;
+  bottom: 14px;
 }
