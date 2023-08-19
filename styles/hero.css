@@ -6,7 +6,7 @@
   margin-top: 19.35px;
   background-image: url("../images/dots.svg"), url("../images/figures.svg"),
     url("../images/Rectangle.svg"), url("../images/herobg.png");
-  background-position: 0px 0px, 159px 35px, 0px -19px;
+  background-position: 0px 0px, 159px 35px, 0px 0px;
   background-repeat: no-repeat;
 }
 
