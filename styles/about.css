@@ -1,0 +1,111 @@
+#about {
+  display: flex;
+}
+
+.owl {
+  position: relative;
+}
+
+.owl-info {
+  margin: 100px 0px 0px 350px;
+  width: 260px;
+  height: 217.84px;
+  background-image: url("../images/Union.svg");
+  background-size: cover;
+}
+
+.owl-info h4,
+.owl-info p,
+.owl-info span {
+  padding: 20px 0px 0px 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.owl-info h4 {
+  font-weight: 600;
+}
+
+.owl-info p {
+  font-weight: 500;
+}
+
+.owl-img {
+  position: absolute;
+  inset: 165.64px 0px 0px 310px;
+}
+
+.about-age {
+  margin: 106.26px 0px 0px 58.65px;
+  display: flex;
+  gap: 160px;
+}
+
+.children,
+.teenager,
+.adult {
+  display: flex;
+}
+
+.children img,
+.teenager img,
+.adult img {
+  width: 49.08px;
+  height: 49.08px;
+}
+
+.children-txt,
+.teenager-txt,
+.adult-txt {
+  padding-top: 4.04px;
+}
+
+.children-txt {
+  margin-left: 15.92px;
+}
+
+.teenager-txt {
+  margin-left: 17.54px;
+}
+
+.adult-txt {
+  margin-left: 17px;
+}
+
+.children-txt h5,
+.teenager-txt h5,
+.adult-txt h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 2px;
+}
+
+.children-txt span,
+.teenager-txt span,
+.adult-txt span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #4f4f4f;
+}
+
+.about-hr-container {
+  inset: 169px 0px 0px -370px;
+  /* margin: 169px 370px 0px 0px; */
+  position: relative;
+  width: 880px;
+  height: 4px;
+  background-image: url("../images/gradienthr.svg");
+  background-repeat: no-repeat;
+}
+
+.about-hr {
+  z-index: -1;
+  position: absolute;
+  inset: 3px 0px 0px 0px;
+  width: 100%;
+  height: 1px;
+  background: #e0e0e0;
+  
+}
