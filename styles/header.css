@@ -55,8 +55,3 @@
   display: flex;
   gap: 9px;
 }
-
-.header-info img {
-  position: relative;
-  bottom: 14px;
-}
