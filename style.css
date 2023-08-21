@@ -2,6 +2,10 @@
 @import url("./styles/header.css");
 @import url("./styles/hero.css");
 @import url("./styles/about.css");
+@import url("./styles/recall.css");
+@import url("./styles/greeting.css");
+@import url("./styles/footer.css");
+
 
 * {
   margin: 0px;
@@ -11,4 +15,8 @@
   text-decoration: none;
   outline: none;
   font-family: "Montserrat", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
 }
