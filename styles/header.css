@@ -44,7 +44,9 @@
   margin: 46px 0px 0px 77.85px;
 }
 
-.header-info span {
+.header-info a {
+  padding-top: 2px;
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;

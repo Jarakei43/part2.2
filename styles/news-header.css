@@ -17,6 +17,10 @@
   color: #fff;
 }
 
+.news-header-login a {
+  color: #fff;
+}
+
 .header-geo img,
 .header-login img {
   width: 17px;

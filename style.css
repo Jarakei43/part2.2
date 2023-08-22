@@ -8,6 +8,7 @@
 @import url("./styles/news-header.css");
 @import url("./styles/news.css");
 @import url("./styles/news-owl.css");
+@import url("./styles/login.css");
 
 * {
   margin: 0px;

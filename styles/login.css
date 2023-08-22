@@ -1,0 +1,100 @@
+#login {
+  display: flex;
+  position: relative;
+}
+
+.login-owl {
+  margin: 200px 0px 0px 350px;
+  width: 350px;
+  height: 138.84249877929688px;
+  background-image: url("../images/loginunion.svg");
+  background-size: cover;
+}
+
+.login-owl p {
+  padding: 19px 0px 0px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.login-owl img {
+  padding-bottom: 135px;
+}
+
+.form-title {
+  margin: 94px 0px 0px 68px;
+  display: flex;
+  gap: 221px;
+}
+
+.form-title a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000;
+}
+
+.loginhr {
+  position: absolute;
+  inset: 129.5px 0px 0px 650px;
+}
+
+.login-form {
+  margin: 66px 0px 0px 50px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.login-form input {
+  width: 380px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  background: #dddfe6;
+}
+
+.login-form input::placeholder {
+  padding: 0px 0px 0px 19px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #4f4f4f;
+}
+
+#login-form span {
+  position: absolute;
+  inset: 406px 0px 0px 834px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.login-socials {
+  position: absolute;
+  inset: 442px 0px 0px 820px;
+}
+
+#login-form button {
+  position: relative;
+  inset: 162px 0px 0px 152.16px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  background: #f7941d;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #fff;
+}
+
+#login-footer {
+  margin-top: 282px;
+  display: flex;
+  gap: 86px;
+  max-width: 100%;
+  height: 560px;
+  background: #00093c;
+}
