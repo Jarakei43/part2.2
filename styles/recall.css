@@ -86,3 +86,17 @@
 .rec-card8 {
   height: 250px;
 }
+
+@media screen and (max-width: 1024px) {
+  #recall {
+    background-position: -418px 0px;
+  }
+  .recall-title {
+    padding-left: 285px;
+  }
+  .rec-card6,
+  .rec-card7,
+  .rec-card8 {
+    display: none;
+  }
+}

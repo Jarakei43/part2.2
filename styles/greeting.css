@@ -68,7 +68,7 @@
   margin: 40px 0px 0px 232.22px;
   padding: 22.45px 0px 0px 49.2px;
   width: 417.785px;
-  height: 191.3px;
+  height: 190.3px;
   background-image: url("../images/greetunion.svg");
   background-size: cover;
 }
@@ -145,4 +145,20 @@
   font-weight: 700;
   line-height: 26px;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .greeting-title{
+    margin-left: 50px ;
+  }
+  .greeting-info {
+    flex-wrap: wrap;
+    margin-left: 25px;
+  }
+  .greeting-info-3 {
+    margin: 20px 0px 0px 0px;
+  }
+  .greeting-info-4 {
+    margin-top: 20px;
+  }
 }

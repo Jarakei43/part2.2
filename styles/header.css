@@ -57,3 +57,15 @@
   display: flex;
   gap: 9px;
 }
+
+@media screen and (max-width:1024px) {
+  .logo button {
+    margin-left: 25px;
+  }
+  .header-nav ul {
+    gap: 20px;
+  }
+  .header-info {
+    gap: 20px;
+  }
+}

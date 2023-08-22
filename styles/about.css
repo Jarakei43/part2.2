@@ -440,3 +440,63 @@
   width: 400px;
   padding-top: 30px;
 }
+
+@media screen and (max-width: 1024px) {
+  .owl-info {
+    margin-left: 50px;
+  }
+  .owl-img {
+    left: 10px;
+  }
+  .about-age {
+    gap: 80px;
+  }
+  .about-hr-container {
+    left: -610px;
+  }
+  .about-hr {
+    width: 640px;
+  }
+  .about-buttons {
+    left: 360px;
+    width: 680px;
+  }
+  .about-video {
+    margin-left: -160px;
+  }
+  .about-title p {
+    margin-left: 135px;
+  }
+  .about-title-numbers {
+    margin-left: 100px;
+  }
+  .about-info-cards {
+    margin-left: 0px;
+  }
+  .card1 {
+    width: 100%;
+  }
+  .card1 button {
+    margin-left: 65px;
+  }
+  .card3 {
+    inset: 177.04px 0px 0px 497.06px;
+    width: 273px;
+  }
+  .card3 img,
+  .card4 img {
+    padding-left: 87px;
+  }
+  .card4 {
+    inset: 177.04px 0px 0px 787.18px;
+    width: 225px;
+  }
+  .card5 {
+    inset: 417.04px 0px 0px 502.06px;
+    gap: 30.35px;
+    width: 509px;
+  }
+  .card5 p {
+    width: 271px;
+  }
+}
