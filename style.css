@@ -7,6 +7,7 @@
 @import url("./styles/footer.css");
 @import url("./styles/news-header.css");
 @import url("./styles/news.css");
+@import url("./styles/news-owl.css");
 
 * {
   margin: 0px;
