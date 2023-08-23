@@ -1,0 +1,212 @@
+.page__ivent__title{
+    font-weight: 700;
+    font-size: 36px;
+    padding: 50px 0px 0px 150px;
+}
+.page__ivent__content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.page__ivent__content__card{
+    width: 1180px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #F7941D;
+}
+.page__ivent__block{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+.page__ivent__block__card{
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #B8EFCF;
+    box-shadow: 0px 0px 10px 3px rgb(191, 190, 190);
+}
+.page__ivent__block__card__content{
+    display: flex;
+    column-gap: 30px;
+}
+.page__ivent__block__card__text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.subtitle{
+    font-weight: 400;
+    font-size: 12px;
+}
+.title1{
+    font-weight: 500;
+    font-size: 18px;
+}
+.page__ivent__block__text{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.page__ivent__content__card__text__img{
+    display: flex;
+    flex-direction: column;
+}
+.page__ivent__content__card__text{
+    padding-top: 30px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.page__ivent__content__card__text1__title{
+    font-weight: 500;
+    font-size: 36px;
+}
+.page__ivent__content__card__text1__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    width: 717px;
+    padding-top: 10px;
+}
+.page__ivent__content__card__text__btn{
+    margin-top: 20px;
+    width: 222px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+}
+.page__ivent__block__card1{
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgb(191, 190, 190);
+    background-image: url(../images/shutterstock_1709750299\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+.page__ivent__block__card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+.page__ivent__block__card1__title{
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+}
+.page__ivent__block__card1__subtitle{
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    width: 33   0px;
+}
+.greeting-card {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin: 158.57px 0px 0px 115px;
+    width: 1180px;
+    height: 270px;
+    border-radius: 20px;
+    background: #fff;
+  }
+  
+  .greet-owl {
+    position: absolute;
+    width: 276.376px;
+    height: 311.522px;
+    inset: 24px 0px 0px -50px;
+  }
+  
+  .greet-union {
+    margin: 40px 0px 0px 232.22px;
+    padding: 22.45px 0px 0px 49.2px;
+    width: 417.785px;
+    height: 190.3px;
+    background-image: url("../images/greetunion.svg");
+    background-size: cover;
+  }
+  
+  .greet-union h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .greet-union p {
+    margin-top: 22.45px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  
+  .greet-registration {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .greet-registration input {
+    border: none;
+    border-radius: 6px;
+    background: rgba(0, 9, 60, 0.1);
+  }
+  
+  .greet-registration input::placeholder {
+    padding: 15.5px 0px 0px 19px;
+    color: #4f4f4f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .greet-name {
+    margin-top: 40px;
+    width: 440px;
+    height: 50px;
+  }
+  
+  .greet-input-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .greet-number,
+  .greet-email {
+    width: 210px;
+    height: 50px;
+  }
+  
+  .greet-submit-container {
+    display: flex;
+    gap: 42.55px;
+  }
+  
+  .greet-submit-container p {
+    color: #4f4f4f;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  
+  .greet-submit-container button {
+    width: 210px;
+    height: 50.037px;
+    border: none;
+    border-radius: 6px;
+    background: #f7941d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+  }
+  

@@ -9,6 +9,11 @@
 @import url("./styles/news.css");
 @import url("./styles/news-owl.css");
 @import url("./styles/login.css");
+@import url("./styles/courses.css");
+@import url("./styles/chess.css");
+@import url("./styles/ivent.css");
+@import url("./styles/ivent2.css");
+@import url("./styles/web.css");
 
 * {
   margin: 0px;

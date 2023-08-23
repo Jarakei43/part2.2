@@ -1,0 +1,197 @@
+body{
+    overflow-x: hidden;
+}
+.page__ivent__hero {
+    max-width: 100%;
+    height: 490px;
+    margin-top: 19.35px;
+    background-image:url(../images/figures.svg),url("../images/shutterstock_1709750299\ \(3\).png"),url(../images/Rectangle.svg),url(../images/Rectangle\ 142.svg);
+    background-position: 30% 0%, 90% 0% , 0% 0%, 100% 0%;
+    background-repeat: no-repeat; 
+    
+  }
+.ivent__hero__title{
+    font-weight: 700;
+    font-size: 42px;
+    color: white;
+}
+.ivent__hero__subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+.ivent__hero{
+    padding: 30px 0px 0px 150px;
+}
+.schedule2__block{
+    padding: 35px 0px 0px 150px;
+    display: flex;
+    column-gap: 30px;
+}
+.title{
+    padding-top: 20px;
+    width: 182px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.schedule2__block__title{
+    position: relative;
+}
+.schedule2__block__subtitle{
+    position: relative;
+}
+
+.schedule2__block__title::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(45deg, rgb(233, 174, 64), rgb(72, 72, 235));;
+    position: absolute;
+    top: 0;
+}
+.schedule2__block__subtitle::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(45deg, rgb(233, 174, 64), rgb(72, 72, 235));
+    position: absolute;
+    top: 0;
+}
+.price2__block{
+    padding: 60px 0px 0px 150px;
+}
+.price2__block__title{
+    width: 280px;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    position: relative;
+}
+.price2__block__title::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(45deg, rgb(233, 174, 64), rgb(72, 72, 235));
+    position: absolute;
+    bottom: 40px;
+}
+.record2__block{
+    padding: 30px 0px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.record2__block__btn{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    width: 286px;
+    height: 50px;
+    background-color:#F7941D;
+    border-radius: 10px;
+    border: none;
+    transition: 0.8s;
+}
+.record2__block__btn:active{
+    transform: scale(0.7);
+}
+.owl-info2 {
+    margin: 100px 0px 0px 150px;
+    width: 350px;
+    height: 137.84px;
+    background-image: url("../images/Union\ \(1\).svg");
+    background-size: cover;
+  }
+  .owl-info2 p{
+    padding: 40px 0px 0px 40px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .owl-img1 {
+    position: absolute;
+    inset: 185.64px 0px 0px 100px;
+  }
+  .owl2 {
+    position: relative;
+    display: flex;
+    column-gap: 90px;
+  }
+  .goals__block2{
+    display: flex;
+  }
+  .goals__block__card{
+    padding: 110px 0px 0px 40px;
+  }
+  .goals__block__card__title{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .goals__block__card__subtitle2{
+    width: 246px;
+    margin-top: 10px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .page__programm__content{
+    padding: 90px 0px 0px 150px;
+  }
+  .page__programm__content__title{
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .page__programm__content__subtitle{
+    margin-top: 20px;
+    width: 979px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .page__programm{
+    margin-top:90px;
+    height: 500px;
+    background-image: url(../images/figures.svg);
+  }
+  .page__questions__contant__title{
+    font-weight: 700;
+    font-style: 28px;
+    padding: 50px 0px 0px 230px;
+  }
+  .page__questions__card1{
+    margin: 40px 0px 0px 10px;
+    width: 1030px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:0px 0px 10px 3px #dccaca;
+  }
+  .page__questions__card__title{
+    padding: 25px 0px 0px 90px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .page__questions__card__img1{
+    margin-right: 20px;
+    margin-top:25px ;
+    width: 10px;
+    height: 10px;
+  }
+  .page__programm__btn{
+    width: 200px;
+    height: 50px;
+    background:linear-gradient(45deg, rgb(233, 174, 64), rgb(72, 72, 235));
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    color: white;
+    margin: 25px 0px 0px 400px;
+    transition: 0.1s;
+  }
+  .page__programm__btn:active{
+    transform: scale(0.9);
+  }
+  .page__teacher1{
+    padding-top: 90px;
+  }

@@ -1,0 +1,323 @@
+.page__chess__hero {
+    max-width: 100%;
+    height: 490px;
+    margin-top: 19.35px;
+    background-image:url(../images/figures.svg),url("../images/shutterstock_2033756324.svg"),url(../images/Rectangle.svg),url(../images/Rectangle\ 142.svg);
+    background-position: 30% 0%, 80% 0% , 0% 0%, 100% 0%;
+    background-repeat: no-repeat; 
+    
+  }
+.chess__hero__title{
+    font-weight: 700;
+    font-size: 42px;
+    color: white;
+}
+.chess__hero__subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+.chess__hero{
+    padding: 30px 0px 0px 150px;
+}
+.schedule__block{
+    padding: 35px 0px 0px 150px;
+    display: flex;
+    column-gap: 50px;
+}
+.title{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.schedule__block__title{
+    position: relative;
+}
+.schedule__block__subtitle{
+    position: relative;
+}
+.schedule__block__title::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(45deg, rgb(233, 174, 64), rgb(72, 72, 235));;
+    position: absolute;
+    bottom: 40px;
+}
+.schedule__block__subtitle::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(45deg, rgb(233, 174, 64), rgb(72, 72, 235));
+    position: absolute;
+    bottom: 40px;
+}
+.price__block{
+    padding: 60px 0px 0px 150px;
+}
+.price__block__title{
+    width: 280px;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    position: relative;
+}
+.price__block__title::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(45deg, rgb(233, 174, 64), rgb(72, 72, 235));
+    position: absolute;
+    bottom: 40px;
+}
+.record__block{
+    padding: 30px 0px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.record__block__title{
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+.record__block__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.record__block__btn{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    width: 286px;
+    height: 50px;
+    background-color:#F7941D;
+    border-radius: 10px;
+    border: none;
+    transition: 0.8s;
+}
+.record__block__btn:active{
+    transform: scale(0.7);
+}
+.owl-info1 {
+    margin: 100px 0px 0px 150px;
+    width: 350px;
+    height: 137.84px;
+    background-image: url("../images/Union\ \(1\).svg");
+    background-size: cover;
+  }
+  .owl-info1 p{
+    padding: 40px 0px 0px 10px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .owl-img1 {
+    position: absolute;
+    inset: 185.64px 0px 0px 100px;
+  }
+  .owl1 {
+    position: relative;
+    display: flex;
+  }
+  .goals__block{
+    display: flex;
+  }
+  .goals__block__card{
+    padding: 110px 0px 0px 40px;
+  }
+  .goals__block__card__title{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .goals__block__card__subtitle{
+    margin-top: 10px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .about-video1 {
+    position: relative;
+    width: 1304px;
+    height: 514.98px;
+    background-image: url("../images/figures2.svg");
+    margin: 70px 0px 0px 30px;
+  }
+  
+  .about-video-photo1 {
+    position: absolute;
+    margin: 68px 0px 0px 280px;
+    width: 750px;
+    height: 300px;
+    background-image:url(../images/shutterstock_2033756324.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .about-video-photo1 img {
+    padding: 110px 0px 0px 325px;
+  }
+  .chess__school{
+    padding: 20px 0px 0px 150px;
+  }
+  .chess__school__title{
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .chess__school__subtitle{
+    margin-top: 20px;
+    width: 979px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .chess__school__block{
+    padding: 40px 0px 0px 150px;
+    display: flex;
+  }
+  .chess__school__block__card__subtitle{
+    padding-top: 15px;
+    width: 180px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .page__record__container{
+    margin-top: 60px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-image: url(../images/Subtract.png);
+  }
+    .page__record__content{
+        padding-top: 90px;
+        display: flex;
+        justify-content: center;
+        column-gap: 90px;
+    }
+    .page__record__content__title{
+        width: 480px;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+    }
+    .page__record__btn{
+        margin: 50px 0px 0px 570px;
+        width: 190px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+        background-color: #F7941D;
+        border-radius: 10px;
+        border: none;
+        transition: 0.2s;
+    }
+    .page__record__btn:active{
+        transform: scale(0.9);
+    }
+    .chess__academy__contant{
+        padding: 50px 0px 0px 150px;
+    }
+    .text{
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .text1{
+        padding-top: 20px;
+        width: 980px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .chess__academy__card{
+        padding-top: 40px;
+        display: flex;
+        column-gap: 30px;
+    }
+    .course__content{
+        padding: 100px 0px 0px 150px;
+    }
+    .coruse__contant2{
+        position: relative;
+    }
+    .coruse__contant__info {
+        padding: 40px 0px 0px 70px;
+        margin: 320px 0px 0px -380px;
+        width: 350px;
+        height: 137.84px;
+        background-image: url("../images/Union\ \(2\).png");
+        background-size: cover;
+      }
+      .coruse__contant1{
+        display: flex;
+      }
+      .coruse__contant__info__img {
+        position: absolute;
+        inset: 367.64px 0px 0px -20px;
+      }
+      .page__teacher__content{
+        max-width: 100%;
+        height: 500px;
+        margin-top: 80px;
+        background-image:url(../images/Group\ 788.png),url(../images/figures.svg),url(../images/Rectangle.svg),url(../images/Rectangle\ 142.svg);
+        background-position: 100% 0% , -80% 0%, 0% 0%;
+        background-repeat: no-repeat; 
+      }
+      .page__teacher__content__titile{
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+      }
+      .page__teacher__block{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+        padding-top: 30px;
+      }
+      .page__teacher___block__card{
+        width: 280px;
+        height: 340px;
+        background-color: white;
+        border-radius: 10px;
+      }
+      .page__teacher__block__card__img{
+        margin:50px 0px 0px 70px ;
+      }
+      .page__teacher__block__card__title{
+        font-weight: 700;
+        font-style: 18px;
+        text-align: center;
+      }
+      .page__teacher__block__card__subtitle{
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+      }
+      .page__questions__contant{
+        height: 500px;
+        background-image: url(../images/figures.svg);
+      }
+      .page__questions__contant__title{
+        font-weight: 700;
+        font-style: 28px;
+        padding: 50px 0px 0px 230px;
+      }
+      .page__questions__card{
+        margin: 40px 0px 0px 230px;
+        width: 990px;
+        height: 70px;
+        display: flex;
+        column-gap: 300px;
+        box-shadow:0px 0px 10px 3px #dccaca;
+      }
+      .page__questions__card__title{
+        padding: 25px 0px 0px 190px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .page__questions__card__img{
+        margin-top:25px ;
+        width: 10px;
+        height: 10px;
+      }
