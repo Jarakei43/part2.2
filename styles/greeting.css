@@ -152,13 +152,38 @@
     margin-left: 50px ;
   }
   .greeting-info {
+    width: 670px;
     flex-wrap: wrap;
     margin-left: 25px;
   }
   .greeting-info-3 {
-    margin: 20px 0px 0px 0px;
+    margin: 35px 0px 0px 0px;
   }
   .greeting-info-4 {
-    margin-top: 20px;
+    margin-top: 35px;
+  }
+  .greeting-card {
+    margin-left: 65px;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+  }
+  .greet-name {
+    margin: 120px 0px 0px 180px;
+  }
+  .greet-number {
+    margin-left: 180px;
+  }
+  .greet-submit-container p {
+    margin-left: 180px;
+  }
+  .greet-submit-container {
+    gap: 40.55px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .greeting-card {
+    margin-left: 0px;
   }
 }

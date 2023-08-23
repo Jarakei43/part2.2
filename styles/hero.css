@@ -31,3 +31,15 @@
   line-height: 24px;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  #hero {
+    background-position: -190px 0px, -30px 35px, 0px 0px;
+  }
+  .hero-title {
+    padding-left: 155px;
+  }
+  #hero p {
+    margin-left: 130px;
+  }
+}

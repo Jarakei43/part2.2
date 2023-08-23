@@ -500,3 +500,69 @@
     width: 271px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .about-top-container {
+    flex-direction: column;
+  }
+  .owl-info {
+    margin-left: 275px;
+  }
+  .owl-img {
+    left: 235px;
+  }
+  .about-age {
+    margin-top: 180px;
+  }
+  .about-hr-container {
+    inset: 15px 0px 0px 30px;
+  }
+  .about-hr {
+    width: 700px;
+  }
+  .about-buttons {
+    inset: 30px 0px 0px 50px;
+  }
+  .about-video {
+    max-width: 100%v  ;
+    background-image: none;
+    margin-top: 60.31px;
+  }
+  .about-video-photo {
+    margin: 100px 0px 0px 150px;
+  }
+  .about-title p {
+    margin-left: 25px;
+  }
+  .about-title-numbers {
+    margin-left: 5px;
+  }
+  .number2 {
+    margin: 0px 35px 0px 30px;
+  }
+  .card1-date {
+    padding-left: 15px;
+  }
+  .card1-txt {
+    padding: 6px 0px 0px 20px;
+  }
+  .card1 button {
+    margin-left: -25px;
+  }
+  .card3 {
+    inset: 177.04px 0px 0px 497.06px;
+    width: 260px;
+  }
+  .card4 {
+    inset: 415.03999999999996px 0px 0px 501.17999999999995px;
+    width: 260px;
+  }
+  .card5 {
+    inset: 655.04px 0px 0px 0px;
+    gap: 30.35px;
+    width: 100%;
+  }
+  .card2 {
+    margin-bottom: 290px;
+  }
+}

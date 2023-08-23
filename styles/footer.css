@@ -80,3 +80,24 @@
   font-weight: 400;
   line-height: 34px;
 }
+
+@media screen and (max-width:1024px) {
+  #footer {
+    gap: 15px;
+  }
+  .footer-title {
+    margin-left: 20px;
+  }
+  .footer-lists {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #footer {
+    height: 610px;
+  }
+  .list4 {
+    display: none;
+  }
+}

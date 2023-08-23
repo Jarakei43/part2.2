@@ -58,7 +58,12 @@
   gap: 9px;
 }
 
-@media screen and (max-width:1024px) {
+.trigger,
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
   .logo button {
     margin-left: 25px;
   }
@@ -67,5 +72,121 @@
   }
   .header-info {
     gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  .header-info {
+    margin-left: 100px;
+    gap: 40px;
+  }
+  .trigger,
+  .menu {
+    display: block;
+  }
+  .trigger {
+    margin-top: 42px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 50px;
+    z-index: 3;
+    opacity: 1;
+  }
+  .trigger:before {
+    font-size: 2rem;
+    text-align: center;
+    content: url("../images/burger-icon-blue.svg");
+    color: #00093C;
+    transition: all 0.3s;
+    line-height: 1.8rem;
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    opacity: 1;
+    position: absolute;
+  }
+  .trigger:checked:before {
+    border-color: #fff;
+    content: "+";
+    transform: rotate(-45deg);
+    color: #00093C;
+  }
+  @keyframes anilogo {
+    from {
+      transform: translateY(0);
+    }
+    16% {
+      transform: translateY(0);
+    }
+    19% {
+      transform: translateY(-1rem);
+    }
+    20% {
+      transform: translateY(0);
+    }
+    23% {
+      transform: translateY(-1rem);
+    }
+    25% {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .menu {
+    width: 100%;
+    transition: all 1s;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0vw;
+    right: -100vw;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00093C;
+    z-index: 1;
+  }
+  .menu a {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #00093C;
+    transition: all 0.5s;
+    margin: 27px 0px 0px -315px;
+    text-decoration: none;
+  }
+  .menu a:first-child {
+    margin-top: -8rem;
+  }
+  .trigger:checked ~ .menu {
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transition: right 1.2s ease-in-out, background 1s ease-in-out,
+      left 1s ease-in-out;
+  }
+  .trigger:not(:checked) ~ .menu {
+    left: 100vw;
+    right: 0;
+    background-color: #1a1a33;
+    visibility: hidden;
+  }
+  .trigger:checked ~ .menu a {
+    transition: color 0.5s 1s;
+    color: #00093C;
+    font-variation-settings: "wght" 300;
   }
 }

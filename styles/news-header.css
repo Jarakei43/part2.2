@@ -26,3 +26,121 @@
   width: 17px;
   height: 20px;
 }
+
+.trigger-white,
+.menu-white {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  .header-info {
+    margin-left: 100px;
+    gap: 40px;
+  }
+  .trigger-white,
+  .menu-white {
+    display: block;
+  }
+  .trigger-white {
+    margin-top: 42px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 50px;
+    z-index: 3;
+    opacity: 1;
+  }
+  .trigger-white:before {
+    font-size: 2rem;
+    text-align: center;
+    content: url("../images/burger-icon-white.svg");
+    color: #fff;
+    transition: all 0.3s;
+    line-height: 1.8rem;
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    opacity: 1;
+    position: absolute;
+  }
+  .trigger-white:checked:before {
+    border-color: #00093c;
+    content: "+";
+    transform: rotate(-45deg);
+    color: #fff;
+  }
+  @keyframes anilogo {
+    from {
+      transform: translateY(0);
+    }
+    16% {
+      transform: translateY(0);
+    }
+    19% {
+      transform: translateY(-1rem);
+    }
+    20% {
+      transform: translateY(0);
+    }
+    23% {
+      transform: translateY(-1rem);
+    }
+    25% {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .menu-white {
+    width: 100%;
+    transition: all 1s;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0vw;
+    right: -100vw;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    z-index: 1;
+  }
+  .menu-white a {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+    transition: all 0.5s;
+    margin: 27px 0px 0px 50px;
+    text-decoration: none;
+  }
+  .trigger-white:checked ~ .menu-white {
+    left: 0;
+    right: 0;
+    background-color: #00093c;
+    transition: right 1.2s ease-in-out, background 1s ease-in-out,
+      left 1s ease-in-out;
+  }
+  .trigger-white:not(:checked) ~ .menu-white {
+    left: 100vw;
+    right: 0;
+    background-color: #fff;
+    visibility: hidden;
+  }
+  .trigger-white:checked ~ .menu-white a {
+    transition: color 0.5s 1s;
+    color: #fff;
+    font-variation-settings: "wght" 300;
+  }
+}

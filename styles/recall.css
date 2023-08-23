@@ -100,3 +100,15 @@
     display: none;
   }
 }
+
+@media screen and (max-width:768px) {
+  #recall {
+    background-position: -560px 0px;
+  }
+  .recall-title {
+    padding-left: 145px;
+  }
+  .rec-card5 {
+    display: none;
+  }
+}
