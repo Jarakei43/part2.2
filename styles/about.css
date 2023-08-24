@@ -244,6 +244,7 @@
 }
 
 .number1 span:first-child {
+  width: 190px;
   background-image: url("../images/600.png");
   background-repeat: no-repeat;
 }
@@ -254,6 +255,7 @@
 }
 
 .number3 span:first-child {
+  width: 318px;
   background-image: url("../images/14\ 795.png");
   background-repeat: no-repeat;
 }

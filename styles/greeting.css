@@ -148,8 +148,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .greeting-title{
-    margin-left: 50px ;
+  .greeting-title {
+    margin-left: 50px;
   }
   .greeting-info {
     width: 670px;
@@ -182,8 +182,42 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .greeting-card {
     margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .greeting-info-2 {
+    margin-left: 20px;
+  }
+  .greeting-info-4 {
+    margin-left: 23px;
+    width: 207px;
+  }
+  .greet-union {
+    margin-left: 222.22px;
+    padding: 9px 0px 0px 30.3px;
+    width: 245.3px;
+    height: 150px;
+    background-image: url("../images/greetUnion480.svg");
+  }
+  .greet-union p {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  .greet-union h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+  }
+  .greet-name, .greet-number {
+    margin-left: 20px;
+  }
+  .greet-submit-container p {
+    margin-left: 20px;
   }
 }

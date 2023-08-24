@@ -101,3 +101,19 @@
     display: none;
   }
 }
+
+@media screen and (max-width:480px) {
+  #footer {
+    gap: 70px;
+  }
+  .footer-title {
+    margin-left: 50px;
+  }
+  .footer-lists ul:not(.list4) {
+    display: none;
+  }
+  .list4 {
+    margin-top: 65px;
+    display: block;
+  }
+}
