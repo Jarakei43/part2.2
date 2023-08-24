@@ -105,7 +105,7 @@
     font-size: 2rem;
     text-align: center;
     content: url("../images/burger-icon-blue.svg");
-    color: #00093C;
+    color: #00093c;
     transition: all 0.3s;
     line-height: 1.8rem;
     width: 2rem;
@@ -118,7 +118,7 @@
     border-color: #fff;
     content: "+";
     transform: rotate(-45deg);
-    color: #00093C;
+    color: #00093c;
   }
   @keyframes anilogo {
     from {
@@ -156,14 +156,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #00093C;
+    background: #00093c;
     z-index: 1;
   }
   .menu a {
     font-size: 30px;
     font-weight: 700;
     line-height: 25px;
-    color: #00093C;
+    color: #00093c;
     transition: all 0.5s;
     margin: 27px 0px 0px -315px;
     text-decoration: none;
@@ -186,7 +186,17 @@
   }
   .trigger:checked ~ .menu a {
     transition: color 0.5s 1s;
-    color: #00093C;
+    color: #00093c;
     font-variation-settings: "wght" 300;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-login {
+    display: none;
+  }
+  #header-info480 {
+    margin-left: 25px;
+    gap: 15px;
   }
 }
