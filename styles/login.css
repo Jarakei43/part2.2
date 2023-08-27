@@ -152,3 +152,28 @@
     margin-top: 3rem;
   }
 }
+
+@media screen and (max-width:480px) {
+  .login-owl {
+    margin-left: 75px;
+  }
+  .form-title {
+    margin-left: 55px;
+  }
+  .loginhr {
+    width: 470px;
+    left: 5px;
+  }
+  .login-form {
+    margin-left: 50px;
+  }
+  #login-form span {
+    left: 130px;
+  }
+  .login-socials {
+    left: 110px;
+  }
+  #login-form button {
+    left: 142.16px;
+  }
+}

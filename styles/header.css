@@ -200,9 +200,9 @@
     gap: 15px;
   }
   .menu a:first-child {
-    margin-top: -80rem;
+    margin-top: 4rem;
   }
   .menu a {
-    margin-left: -650px;
+    margin-left: 0px;
   }
 }
