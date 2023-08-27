@@ -27,6 +27,9 @@
     background-color: #B8EFCF;
     box-shadow: 0px 0px 10px 3px rgb(191, 190, 190);
 }
+.big-card {
+    width: 780px;
+}
 .page__ivent__block__card__content{
     display: flex;
     column-gap: 30px;
@@ -108,4 +111,77 @@
     font-size: 12px;
     color: white;
     width: 33   0px;
+}
+
+.subtitle1 {
+    width: 320px;
+}
+
+@media screen and (max-width:1024px) {
+    .ivents-header-info {
+        margin-left: 40px;
+    }
+    .page__ivent__title {
+        padding-left: 100px;
+    }
+    .page__ivent__block {
+        column-gap: 6px;
+    }
+    .page__ivent__content__card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page__ivent__title {
+        padding-left: 125px;
+    }
+    .page__ivent__content__card__text__btn {
+        display: none;
+    }
+    .page__ivent__block {
+        flex-wrap: wrap;
+        column-gap: 8px;
+        row-gap: 15px;
+    }
+    .page__ivent__content__card__text1__title {
+        width: 442px;
+    }
+    .page__ivent__content__card__text1__subtitle {
+        width: 526px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .page__ivent__title {
+        padding-left: 40px;
+    }
+    .page__ivent__content__card {
+        height: 340px;
+    }
+    .page__ivent__content__card__text {
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    .page__ivent__content__card__text img:first-child {
+        width: 108px;
+        height: 68px;
+    }
+    .page__ivent__content__card__text img:last-child {
+        width: 108px;
+        height: 29.35px;
+    }
+    .page__ivent__content__card__text1__subtitle {
+        width: 435px;
+        overflow-wrap: break-word;
+    }
+    .big-card {
+        max-width: 100%;
+    }
+    .page__ivent__block__card__content {
+        column-gap: 15px;
+    }
+    .subtitle1 {
+        width: 175px;
+    }
 }
