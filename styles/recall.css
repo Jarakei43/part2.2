@@ -99,6 +99,9 @@
   .rec-card8 {
     display: none;
   }
+  .rec-card {
+    width: 200px;
+  }
 }
 
 @media screen and (max-width:768px) {

@@ -157,7 +157,7 @@
     bottom:100px ;
 }
 .its__programm__btn{
-    margin: 60px 0px 0px 600px;
+    margin: 60px 0px 0px 885px;
     width: 190px;
     height: 50px;
     background-color: #F7941D;
@@ -331,4 +331,16 @@
     display: flex;
     padding-top: 30px;
     column-gap: 20px;
+}
+
+.course__contant3 {
+    margin-left: 235px ;
+}
+
+.course__content__card__img1 {
+    width: 120px;
+}
+
+.course__content__card__img8 {
+    width: 134px;
 }
